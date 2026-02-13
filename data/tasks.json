@@ -293,8 +293,8 @@
       "subtasks": [],
       "priority": "medium",
       "createdAt": "2026-02-13T18:41:40.341Z",
-      "status": "in_progress",
-      "sortOrder": 1
+      "status": "backlog",
+      "sortOrder": 0
     },
     {
       "id": "task_1771021979332",
@@ -334,6 +334,14 @@
     }
   ],
   "activities": [
+    {
+      "type": "moved",
+      "actor": "openssorck22",
+      "task": "Test Automation",
+      "from": "in_progress",
+      "to": "backlog",
+      "time": "just now"
+    },
     {
       "type": "moved",
       "actor": "openssorck22",
@@ -699,5 +707,5 @@
       "time": "just now"
     }
   ],
-  "lastUpdated": "2026-02-13T22:48:41.873Z"
+  "lastUpdated": "2026-02-13T22:55:07.516Z"
 }

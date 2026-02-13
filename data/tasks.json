@@ -253,7 +253,7 @@
       "id": "task_example",
       "title": "Example Task — Delete me when ready!",
       "description": "This is an example of what a real task looks like. Feel free to edit or delete it.\n\n**Good task descriptions include:**\n- What needs to be done\n- Why it matters\n- Any constraints or requirements\n- Links to relevant resources",
-      "status": "backlog",
+      "status": "in_progress",
       "project": "default",
       "tags": [
         "example"
@@ -310,6 +310,14 @@
     }
   ],
   "activities": [
+    {
+      "type": "moved",
+      "actor": "openssorck22",
+      "task": "Example Task — Delete me when ready!",
+      "from": "backlog",
+      "to": "in_progress",
+      "time": "just now"
+    },
     {
       "type": "moved",
       "actor": "openssorck22",
@@ -515,5 +523,5 @@
       "time": "just now"
     }
   ],
-  "lastUpdated": "2026-02-13T19:42:33.146Z"
+  "lastUpdated": "2026-02-13T19:45:25.651Z"
 }

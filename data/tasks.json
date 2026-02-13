@@ -277,7 +277,8 @@
       ],
       "priority": "low",
       "comments": [],
-      "createdAt": "2026-01-01T00:00:02Z"
+      "createdAt": "2026-01-01T00:00:02Z",
+      "sortOrder": 0
     },
     {
       "id": "task_1771008100341",
@@ -290,7 +291,7 @@
       "subtasks": [],
       "priority": "medium",
       "createdAt": "2026-02-13T18:41:40.341Z",
-      "status": "in_progress",
+      "status": "backlog",
       "sortOrder": 0
     }
   ],
@@ -313,6 +314,14 @@
       "type": "moved",
       "actor": "openssorck22",
       "task": "Test Automation",
+      "from": "in_progress",
+      "to": "backlog",
+      "time": "just now"
+    },
+    {
+      "type": "moved",
+      "actor": "openssorck22",
+      "task": "Test Automation",
       "from": "backlog",
       "to": "in_progress",
       "time": "just now"
@@ -330,5 +339,5 @@
       "time": "just now"
     }
   ],
-  "lastUpdated": "2026-02-13T18:45:06.776Z"
+  "lastUpdated": "2026-02-13T18:49:00.176Z"
 }

@@ -291,7 +291,7 @@
       "subtasks": [],
       "priority": "medium",
       "createdAt": "2026-02-13T18:41:40.341Z",
-      "status": "backlog",
+      "status": "in_progress",
       "sortOrder": 0
     }
   ],
@@ -403,5 +403,5 @@
       "time": "just now"
     }
   ],
-  "lastUpdated": "2026-02-13T19:01:34.938Z"
+  "lastUpdated": "2026-02-13T19:02:59.678Z"
 }

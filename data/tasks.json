@@ -307,7 +307,7 @@
       "subtasks": [],
       "priority": "medium",
       "createdAt": "2026-02-13T22:32:59.332Z",
-      "status": "backlog",
+      "status": "in_progress",
       "sortOrder": 0
     }
   ],
@@ -326,6 +326,14 @@
     }
   ],
   "activities": [
+    {
+      "type": "moved",
+      "actor": "openssorck22",
+      "task": "Test Automation 2",
+      "from": "backlog",
+      "to": "in_progress",
+      "time": "just now"
+    },
     {
       "type": "moved",
       "actor": "openssorck22",
@@ -683,5 +691,5 @@
       "time": "just now"
     }
   ],
-  "lastUpdated": "2026-02-13T22:46:58.383Z"
+  "lastUpdated": "2026-02-13T22:48:41.873Z"
 }

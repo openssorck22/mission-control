@@ -1,0 +1,23 @@
+{
+  "project": "template",
+  "last_updated": "2026-02-15T00:00:00Z",
+  "updated_by": "dante",
+  "tasks": [
+    {
+      "id": "PROJ-001",
+      "title": "Example Task Title",
+      "description": "Clear description of what needs to be done and why.",
+      "status": "todo",
+      "priority": "medium",
+      "assigned_to": "dante",
+      "created_at": "2026-02-15T00:00:00Z",
+      "updated_at": "2026-02-15T00:00:00Z",
+      "subtasks": [
+        { "id": "PROJ-001-a", "title": "First subtask", "done": false },
+        { "id": "PROJ-001-b", "title": "Second subtask", "done": false }
+      ],
+      "tags": [],
+      "notes": ""
+    }
+  ]
+}

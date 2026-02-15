@@ -1,0 +1,74 @@
+{
+  "children": [
+    {
+      "object": "block",
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [{ "type": "text", "text": { "content": "Role Overview" } }]
+      }
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [{ "type": "text", "text": { "content": "The Marketing & SEO Agent is responsible for driving lead generation and optimizing organic search visibility across the agency's portfolio, with an immediate focus on LS Concrete Coatings." } }]
+      }
+    },
+    {
+      "object": "block",
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [{ "type": "text", "text": { "content": "Capabilities" } }]
+      }
+    },
+    {
+      "object": "block",
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [{ "type": "text", "text": { "content": "SEO Optimization: Keyword research, on-page optimization, and local SEO (Google LSA focus)." } }]
+      }
+    },
+    {
+      "object": "block",
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [{ "type": "text", "text": { "content": "Copywriting: Creating high-converting ad copy for Facebook and Google." } }]
+      }
+    },
+    {
+      "object": "block",
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [{ "type": "text", "text": { "content": "Data Analysis: Analyzing ad performance (CPL, CAC) and recommending budget shifts." } }]
+      }
+    },
+    {
+      "object": "block",
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [{ "type": "text", "text": { "content": "Training Roadmap" } }]
+      }
+    },
+    {
+      "object": "block",
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [{ "type": "text", "text": { "content": "Phase 1: Knowledge Ingestion (P&L Analysis, Ad Strategy)" } }]
+      }
+    },
+    {
+      "object": "block",
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [{ "type": "text", "text": { "content": "Phase 2: Tactical Execution (Google LSA, FB Targeting)" } }]
+      }
+    },
+    {
+      "object": "block",
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [{ "type": "text", "text": { "content": "Phase 3: Automation (Weekly Slack Reports)" } }]
+      }
+    }
+  ]
+}

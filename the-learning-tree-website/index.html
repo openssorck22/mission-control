@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Learning Tree | Child Care & Preschool Minot, ND | Est. 2015</title>
+  <meta name="description" content="The Learning Tree provides quality child care and preschool in Minot, ND. Founded in 2015, serving families at our Little Flower location. Ages 6 weeks to 12 years.">
+  <meta name="keywords" content="daycare Minot ND, preschool Minot, childcare Minot, infant care Minot, The Learning Tree, Little Flower Minot">
+  <link rel="canonical" href="https://www.thelearningtreend.com/">
+  <meta property="og:title" content="The Learning Tree | Child Care & Preschool Minot, ND">
+  <meta property="og:description" content="Quality child care and preschool in Minot, ND since 2015. Serving ages 6 weeks to 12 years.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.thelearningtreend.com/">
+  <meta property="og:image" content="https://www.thelearningtreend.com/og-image.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ChildCare",
+    "name": "The Learning Tree at Little Flower",
+    "description": "Quality child care and preschool in Minot, ND since 2015",
+    "url": "https://www.thelearningtreend.com/",
+    "telephone": "701-818-4515",
+    "email": "Director@thelearningtreend.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "800 University Ave W",
+      "addressLocality": "Minot",
+      "addressRegion": "ND",
+      "postalCode": "58703",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "48.2325",
+      "longitude": "-101.2963"
+    },
+    "openingHours": "Mo-Fr 07:00-18:00",
+    "priceRange": "$$",
+    "foundingDate": "2015",
+    "founders": [
+      {
+        "@type": "Person",
+        "name": "Kevin Cross"
+      },
+      {
+        "@type": "Person",
+        "name": "Susan Cross"
+      }
+    ]
+  }
+  </script>
+  <style>
+    :root {
+      --forest: #2d5a3d;
+      --forest-light: #3a7a52;
+      --sage: #7a9e7e;
+      --leaf: #8bb174;
+      --leaf-light: #b5d4a0;
+      --cream: #faf9f5;
+      --warm-cream: #f5f0e8;
+      --bark: #6b4f3a;
+      --text: #3a3a2e;
+      --text-light: #6a6a5e;
+      --white: #ffffff;
+      --shadow: rgba(45, 90, 61, 0.08);
+      --shadow-md: rgba(45, 90, 61, 0.12);
+    }
+    
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Nunito', sans-serif; color: var(--text); background: var(--cream); line-height: 1.7; }
+    img { max-width: 100%; display: block; }
+    a { text-decoration: none; color: inherit; }
+    
+    .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+    .section-padding { padding: 100px 0; }
+    .text-center { text-align: center; }
+    
+    .btn { display: inline-block; padding: 14px 36px; border-radius: 50px; font-weight: 700; transition: all 0.3s; cursor: pointer; border: none; }
+    .btn-primary { background: var(--forest); color: var(--white); }
+    .btn-primary:hover { background: var(--forest-light); transform: translateY(-2px); }
+    .btn-white { background: var(--white); color: var(--forest); }
+    .btn-white:hover { transform: translateY(-2px); }
+    
+    /* Navigation */
+    .navbar { position: fixed; top: 0; left: 0; right: 0; z-index: 1000; padding: 16px 0; transition: all 0.3s; background: transparent; }
+    .navbar.scrolled { background: rgba(255,255,255,0.97); backdrop-filter: blur(10px); box-shadow: 0 2px 20px var(--shadow); }
+    .navbar .container { display: flex; align-items: center; justify-content: space-between; }
+    .nav-logo-text { font-family: 'Playfair Display', serif; font-size: 1.4rem; font-weight: 700; color: var(--white); transition: color 0.3s; }
+    .navbar.scrolled .nav-logo-text { color: var(--forest); }
+    .nav-links { display: flex; gap: 28px; }
+    .nav-links a { font-weight: 600; font-size: 0.88rem; color: rgba(255,255,255,0.9); transition: color 0.3s; }
+    .navbar.scrolled .nav-links a { color: var(--text); }
+    .nav-links a:hover { color: var(--leaf-light); }
+    .nav-cta { padding: 10px 24px; background: var(--forest); color: var(--white); border-radius: 50px; }
+    
+    /* Hero */
+    .hero { position: relative; min-height: 100vh; display: flex; align-items: center; justify-content: center; text-align: center; background: linear-gradient(180deg, #87CEEB 0%, #b6e3f4 30%, #d4efdf 55%, #8bb174 72%, #5a9a3c 85%, #3a7a2a 100%); overflow: hidden; }
+    .hero-content { position: relative; z-index: 3; padding: 0 24px; }
+    .hero h1 { font-family: 'Playfair Display', serif; font-size: clamp(2.8rem, 6vw, 4.5rem); font-weight: 700; color: var(--white); margin-bottom: 16px; text-shadow: 0 2px 20px rgba(0,0,0,0.15); }
+    .hero-tagline { font-size: clamp(1.1rem, 2.5vw, 1.4rem); color: var(--white); font-weight: 600; font-style: italic; margin-bottom: 20px; }
+    .hero p { font-size: 1.1rem; color: rgba(255,255,255,0.95); max-width: 560px; margin: 0 auto 36px; }
+    .hero-stats { display: flex; justify-content: center; gap: 40px; margin-top: 56px; }
+    .hero-stat { text-align: center; background: rgba(255,255,255,0.18); padding: 16px 24px; border-radius: 16px; }
+    .hero-stat-number { font-family: 'Playfair Display', serif; font-size: 2rem; font-weight: 700; color: var(--white); }
+    .hero-stat-label { font-size: 0.78rem; color: rgba(255,255,255,0.8); text-transform: uppercase; letter-spacing: 1px; }
+    
+    /* Clouds */
+    .hero-cloud { position: absolute; background: rgba(255,255,255,0.7); border-radius: 50px; animation: cloudDrift 25s linear infinite; }
+    .cloud-1 { width: 160px; height: 50px; top: 12%; left: -5%; }
+    .cloud-2 { width: 120px; height: 40px; top: 22%; left: -10%; animation-delay: -10s; opacity: 0.5; }
+    @keyframes cloudDrift { 0% { transform: translateX(0); } 100% { transform: translateX(calc(100vw + 200px)); } }
+    
+    /* About */
+    .about { background: var(--white); }
+    .section-title { font-family: 'Playfair Display', serif; font-size: clamp(2rem, 4vw, 2.8rem); font-weight: 700; color: var(--forest); margin-bottom: 16px; }
+    .section-label { font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 3px; color: var(--sage); margin-bottom: 12px; }
+    .about-intro { max-width: 800px; margin: 0 auto 60px; text-align: center; }
+    .about-intro p { color: var(--text-light); font-size: 1.05rem; }
+    .founders-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin-bottom: 60px; }
+    .founder-card { background: var(--warm-cream); border-radius: 20px; padding: 36px; position: relative; }
+    .founder-card::before { content: '"'; font-family: 'Playfair Display', serif; font-size: 4rem; color: var(--leaf-light); opacity: 0.5; position: absolute; top: 16px; left: 24px; }
+    .founder-card blockquote { font-size: 0.95rem; color: var(--text-light); line-height: 1.8; margin-bottom: 16px; padding-top: 24px; }
+    .founder-card cite { font-style: normal; font-weight: 700; color: var(--forest); }
+    .mission-box { background: linear-gradient(135deg, var(--forest) 0%, var(--forest-light) 100%); border-radius: 20px; padding: 48px; text-align: center; margin-bottom: 60px; }
+    .mission-box h3 { font-family: 'Playfair Display', serif; color: var(--white); font-size: 1.4rem; margin-bottom: 16px; }
+    .mission-box p { color: rgba(255,255,255,0.85); font-size: 1.05rem; max-width: 700px; margin: 0 auto; font-style: italic; }
+    
+    /* Programs */
+    .programs { background: var(--warm-cream); }
+    .programs-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 28px; }
+    .program-card { background: var(--white); border-radius: 20px; padding: 36px; box-shadow: 0 2px 16px var(--shadow); }
+    .program-card h3 { font-family: 'Playfair Display', serif; font-size: 1.35rem; color: var(--forest); margin-bottom: 12px; }
+    .program-card p { color: var(--text-light); font-size: 0.92rem; margin-bottom: 12px; }
+    .program-age { color: var(--sage); font-weight: 700; font-size: 0.85rem; text-transform: uppercase; margin-bottom: 8px; }
+    .program-price { background: var(--forest); color: white; padding: 12px 20px; border-radius: 12px; display: inline-block; font-weight: 700; }
+    
+    /* Why Choose Us */
+    .why-us { background: var(--white); }
+    .features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; }
+    .feature-item { display: flex; align-items: flex-start; gap: 16px; padding: 24px; background: var(--warm-cream); border-radius: 16px; }
+    .feature-icon { font-size: 2rem; }
+    .feature-item h3 { font-size: 1.1rem; color: var(--forest); margin-bottom: 8px; }
+    .feature-item p { color: var(--text-light); font-size: 0.9rem; }
+    
+    /* Contact */
+    .contact { background: var(--warm-cream); }
+    .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; }
+    .contact-info h3 { font-family: 'Playfair Display', serif; color: var(--forest); font-size: 1.6rem; margin-bottom: 24px; }
+    .contact-item { display: flex; align-items: flex-start; gap: 16px; margin-bottom: 24px; }
+    .contact-item strong { color: var(--forest); display: block; margin-bottom: 4px; }
+    .contact-item p { color: var(--text-light); }
+    .contact-form { background: var(--white); border-radius: 20px; padding: 40px; }
+    .form-group { margin-bottom: 20px; }
+    .form-group label { display: block; font-weight: 700; font-size: 0.85rem; margin-bottom: 6px; }
+    .form-group input, .form-group select, .form-group textarea { width: 100%; padding: 12px 16px; border: 2px solid #e8e4dc; border-radius: 12px; font-family: 'Nunito', sans-serif; font-size: 0.95rem; }
+    .form-group input:focus, .form-group select:focus, .form-group textarea:focus { border-color: var(--leaf); outline: none; }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    
+    /* Footer */
+    .footer { background: #1a2e22; color: rgba(255,255,255,0.7); padding: 64px 0 32px; }
+    .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 48px; margin-bottom: 48px; }
+    .footer h4 { color: var(--white); font-size: 0.9rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 20px; }
+    .footer a { color: var(--leaf-light); }
+    .footer a:hover { text-decoration: underline; }
+    .footer-bottom { border-top: 1px solid rgba(255,255,255,0.08); padding-top: 24px; text-align: center; font-size: 0.82rem; }
+    
+    @media (max-width: 768px) {
+      .nav-links { display: none; }
+      .founders-grid { grid-template-columns: 1fr; }
+      .contact-grid { grid-template-columns: 1fr; }
+      .footer-grid { grid-template-columns: 1fr; }
+      .form-row { grid-template-columns: 1fr; }
+      .section-padding { padding: 64px 0; }
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#home" class="nav-logo-text">🌳 The Learning Tree</a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#programs">Programs</a>
+        <a href="#why-us">Why Us</a>
+        <a href="#contact">Contact</a>
+        <a href="#contact" class="nav-cta">Enroll Today</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero" id="home">
+    <div class="hero-cloud cloud-1"></div>
+    <div class="hero-cloud cloud-2"></div>
+    <div class="hero-content">
+      <h1>The Learning Tree</h1>
+      <p class="hero-tagline">Rooted in Care, Growing With Love</p>
+      <p>Providing quality child care and preschool in Minot, North Dakota since 2015. A safe, nurturing environment for children ages 6 weeks to 12 years.</p>
+      <div>
+        <a href="#contact" class="btn btn-white">Enroll Your Child</a>
+        <a href="#programs" class="btn" style="background:rgba(255,255,255,0.2);color:white;margin-left:16px;">View Programs</a>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <div class="hero-stat-number">10+</div>
+          <div class="hero-stat-label">Years of Care</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-number">6wk-12yr</div>
+          <div class="hero-stat-label">Ages Served</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about section-padding" id="about">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-label">About Us</span>
+        <h2 class="section-title">Our Story</h2>
+      </div>
+      <div class="about-intro">
+        <p>The Learning Tree was established in 2015 by Kevin and Susan Cross. What started with just 5 children in their home has grown into a trusted pillar of the Minot community.</p>
+      </div>
+      <div class="founders-grid">
+        <div class="founder-card">
+          <blockquote>We started with 5 kids in our home, we soon grew out of our house and into The Learning Tree at Oak Park and in July 2021 we opened The Learning Tree at Little Flower. We feel so fortunate to provide a much needed service to the Minot area and have met so many wonderful families and life long friends along the way.</blockquote>
+          <cite>— Susan Cross, Co-Founder</cite>
+        </div>
+        <div class="founder-card">
+          <blockquote>Since opening our doors we have taken much pride in providing a healthy environment for children to learn and grow in. We know that a superior educational foundation successfully prepares each child for a lifetime of curiosity and investigation, while building self-esteem and an enduring love of learning. At The Learning Tree, your child's first educational experiences will be happy and successful!</blockquote>
+          <cite>— Kevin Cross, Co-Founder</cite>
+        </div>
+      </div>
+      <div class="mission-box">
+        <h3>Our Mission</h3>
+        <p>The Learning Tree exists to provide a safe, developmentally appropriate environment for children ages 6 weeks to 12 years old. Our focus is to provide a stimulating early care and education experience, which promotes each child's social/emotional, physical and cognitive development. Our goal is to support children's desire to be life-long learners.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="programs section-padding" id="programs">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-label">Our Programs</span>
+        <h2 class="section-title">Growing Together at Every Stage</h2>
+      </div>
+      <div class="programs-grid">
+        <div class="program-card">
+          <div class="program-age">0-17 Months</div>
+          <h3>Infant Room</h3>
+          <p>Our infant room provides a nurturing environment where your baby will discover new sounds, foods, and experiences. Teachers work with parents to establish feeding and sleep schedules while tracking developmental milestones.</p>
+          <p><strong>Daily activities include:</strong> Art, tummy time, outdoor walks (weather permitting)</p>
+          <div class="program-price">$510 / 2 weeks</div>
+        </div>
+        <div class="program-card">
+          <div class="program-age">18-36 Months</div>
+          <h3>Toddler Room</h3>
+          <p>Designed for crawlers and new walkers, our toddler program helps children transition from bottles to cups and cribs to sleeping mats. We work closely with parents on introducing new foods.</p>
+          <p><strong>Daily activities include:</strong> Sensory play, art projects, music and movement</p>
+          <div class="program-price">$495 / 2 weeks</div>
+        </div>
+        <div class="program-card">
+          <div class="program-age">3 Year Olds</div>
+          <h3>Preschool</h3>
+          <p>Our preschool program gives children their first exposure to a school setting. We practice social interactions, learn routines, and improve skills like using art tools and name writing.</p>
+          <p><strong>Requirements:</strong> Children must be potty-trained and use the bathroom independently.</p>
+          <div class="program-price">$480 / 2 weeks</div>
+        </div>
+        <div class="program-card">
+          <div class="program-age">4-5+ Years</div>
+          <h3>Pre-Kindergarten</h3>
+          <p>Preparing children for kindergarten success through reading, writing, math, and science. We focus on fine motor skills, scissor skills, and letter recognition while building confidence.</p>
+          <p><strong>Requirements:</strong> Children must be potty-trained and use the bathroom independently.</p>
+          <div class="program-price">$460-470 / 2 weeks</div>
+        </div>
+      </div>
+      <div class="text-center" style="margin-top:40px;">
+        <p style="color:var(--text-light);"><strong>We accept Child Care Assistance (CCAP).</strong> A 2-week deposit is required for all families. Contact us for enrollment details.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="why-us section-padding" id="why-us">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-label">Why Choose Us</span>
+        <h2 class="section-title">The Learning Tree Difference</h2>
+      </div>
+      <div class="features-grid">
+        <div class="feature-item">
+          <div class="feature-icon">📱</div>
+          <div>
+            <h3>Brightwheel App</h3>
+            <p>Stay connected with real-time updates on meals, activities, naps, and photos throughout your child's day.</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon">🔒</div>
+          <div>
+            <h3>Secure Facility</h3>
+            <p>Secure entry system, child-sized equipment, and regular safety drills ensure your child's protection.</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon">🧼</div>
+          <div>
+            <h3>Clean & Safe</h3>
+            <p>Non-toxic cleaning solutions, daily sanitation, and regular equipment inspections maintain a healthy environment.</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon">👨‍🏫</div>
+          <div>
+            <h3>Qualified Staff</h3>
+            <p>All staff complete pediatric first aid, CPR, and SIDS training with ongoing professional development.</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon">🚪</div>
+          <div>
+            <h3>Open Door Policy</h3>
+            <p>Parents are welcome to visit anytime. We believe in transparency and partnership with families.</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon">🎓</div>
+          <div>
+            <h3>Preschool Included</h3>
+            <p>All children automatically receive preschool and kindergarten readiness curriculum at no extra cost.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact section-padding" id="contact">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-label">Get in Touch</span>
+        <h2 class="section-title">Ready to Enroll?</h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h3>Contact Information</h3>
+          <div class="contact-item">
+            <div>
+              <strong>The Learning Tree at Little Flower</strong>
+              <p>800 University Ave W<br>Minot, ND 58703</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div>
+              <strong>Phone</strong>
+              <p><a href="tel:701-818-4515" style="color:var(--forest-light);">701-818-4515</a></p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div>
+              <strong>Email</strong>
+              <p><a href="mailto:Director@thelearningtreend.com" style="color:var(--forest-light);">Director@thelearningtreend.com</a></p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div>
+              <strong>Hours</strong>
+              <p>Monday - Friday<br>7:00 AM - 6:00 PM</p>
+            </div>
+          </div>
+          <div style="margin-top:24px;">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.5!2d-101.3!3d48.23!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2s800+University+Ave+W+Minot+ND!5e0!3m2!1sen!2sus" width="100%" height="200" style="border:0;border-radius:12px;" allowfullscreen loading="lazy"></iframe>
+          </div>
+        </div>
+        <div class="contact-form">
+          <h3 style="font-family:'Playfair Display',serif;color:var(--forest);margin-bottom:24px;">Send Us a Message</h3>
+          <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+            <div class="form-row">
+              <div class="form-group">
+                <label>First Name *</label>
+                <input type="text" name="firstName" required>
+              </div>
+              <div class="form-group">
+                <label>Last Name *</label>
+                <input type="text" name="lastName" required>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label>Email *</label>
+                <input type="email" name="email" required>
+              </div>
+              <div class="form-group">
+                <label>Phone</label>
+                <input type="tel" name="phone">
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Program Interest</label>
+              <select name="program">
+                <option value="">Select a program...</option>
+                <option value="infant">Infant (0-17 months)</option>
+                <option value="toddler">Toddler (18-36 months)</option>
+                <option value="preschool">Preschool (3 years)</option>
+                <option value="prek">Pre-Kindergarten (4-5+ years)</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Message</label>
+              <textarea name="message" rows="4" placeholder="Tell us about your child and any questions you have..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width:100%;">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4 style="font-family:'Playfair Display',serif;color:white;font-size:1.3rem;margin-bottom:12px;">🌳 The Learning Tree</h4>
+          <p style="margin-bottom:20px;">Providing quality child care and preschool in Minot, North Dakota since 2015. Founded by Kevin and Susan Cross.</p>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <p><a href="#about">About Us</a></p>
+          <p><a href="#programs">Programs</a></p>
+          <p><a href="#why-us">Why Choose Us</a></p>
+          <p><a href="#contact">Contact</a></p>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <p>800 University Ave W<br>Minot, ND 58703</p>
+          <p style="margin-top:12px;"><a href="tel:701-818-4515">701-818-4515</a></p>
+          <p><a href="mailto:Director@thelearningtreend.com">Director@thelearningtreend.com</a></p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 The Learning Tree. All rights reserved. | License #4321</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Navbar scroll effect
+    window.addEventListener('scroll', () => {
+      document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 60);
+    });
+    
+    // Smooth scroll for navigation links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+    });
+  </script>
+</body>
+</html>

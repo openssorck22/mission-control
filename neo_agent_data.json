@@ -1,0 +1,9 @@
+{
+  "parent": { "database_id": "3071504b-460e-81ce-9a97-d475d1bb3748" },
+  "properties": {
+    "Agent Role": { "title": [{ "text": { "content": "Neo (Dev Agent)" } }] },
+    "Capabilities": { "multi_select": [{ "name": "React/Tailwind", "color": "blue" }, { "name": "Supabase", "color": "green" }, { "name": "Netlify", "color": "yellow" }] },
+    "Assigned Business": { "select": { "name": "All" } },
+    "Training Source": { "rich_text": [{ "text": { "content": "memory/neo-dev-agent.md" } }] }
+  }
+}

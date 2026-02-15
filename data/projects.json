@@ -1,1 +1,40 @@
-{ "projects": ["openmat", "ratio", "ls-concrete", "agency-admin"] }
+{
+  "projects": [
+    {
+      "id": "ratio",
+      "name": "Ratio",
+      "description": "Daycare management SaaS (replacing Brightwheel)",
+      "status": "active",
+      "priority": "primary",
+      "task_file": "data/ratio-tasks.json",
+      "context_file": "context/ratio.md"
+    },
+    {
+      "id": "openmat",
+      "name": "OpenMat",
+      "description": "BJJ/MMA gym management SaaS (replacing GymDesk)",
+      "status": "active",
+      "priority": "primary",
+      "task_file": "data/openmat-tasks.json",
+      "context_file": "context/openmat.md"
+    },
+    {
+      "id": "ls-concrete",
+      "name": "LS Concrete Coatings",
+      "description": "Concrete coating business acquisition in Dallas",
+      "status": "active",
+      "priority": "secondary",
+      "task_file": "data/ls-concrete-tasks.json",
+      "context_file": "context/ls-concrete.md"
+    },
+    {
+      "id": "inner-workings",
+      "name": "Inner Workings",
+      "description": "Therapeutic AI chat with Jungian psychology guides",
+      "status": "active",
+      "priority": "background",
+      "task_file": "data/inner-workings-tasks.json",
+      "context_file": "context/inner-workings.md"
+    }
+  ]
+}

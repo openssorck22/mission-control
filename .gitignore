@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+**/node_modules/
+.npm-global/
+
+# System / Secrets
+.env
+.*-token
+*.log
+.DS_Store
+.clawhub/
+.clawdbot/
+.config/
+
+# Build / Temp
+dist/
+coverage/
+tmp/
+
+# OpenClaw Internal
+agent-classifier/
+skills/
+uploads/
+memory-backup-*.tar.gz
+*.py
+*.sh
+*.ts
+*.md

@@ -1,1 +1,48 @@
-{ "tasks": [] }
+{
+  "tasks": [
+    {
+      "id": "MC-001",
+      "project": "ls-concrete",
+      "title": "Review due diligence docs",
+      "description": "Go through the provided PDFs and flag risks for acquisition.",
+      "status": "in_progress",
+      "priority": "high",
+      "subtasks": [],
+      "assigned_to": "Dante",
+      "created_at": "2026-02-15T14:00:00Z"
+    },
+    {
+      "id": "MC-002",
+      "project": "openmat",
+      "title": "Finalize Multi-Tenant Architecture",
+      "description": "Plan the DB schema and auth flow for 100+ gyms.",
+      "status": "todo",
+      "priority": "high",
+      "subtasks": [],
+      "assigned_to": "Dante",
+      "created_at": "2026-02-15T14:00:00Z"
+    },
+    {
+      "id": "MC-003",
+      "project": "ratio",
+      "title": "Fix billing bug",
+      "description": "Investigate reported billing issue in production.",
+      "status": "todo",
+      "priority": "medium",
+      "subtasks": [],
+      "assigned_to": "Dante",
+      "created_at": "2026-02-15T14:00:00Z"
+    },
+    {
+      "id": "MC-004",
+      "project": "agency-admin",
+      "title": "Build Phase 2 Dashboard (Claude)",
+      "description": "Use the structured repo to build the visual Agency OS board.",
+      "status": "todo",
+      "priority": "high",
+      "subtasks": [],
+      "assigned_to": "Claude",
+      "created_at": "2026-02-15T14:00:00Z"
+    }
+  ]
+}
